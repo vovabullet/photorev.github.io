@@ -169,7 +169,7 @@ label{
 .sd div {
     margin-top: 50px;
 }
-.i {
+.contacts_href {
     float: right;
 }
 .description_img {
@@ -319,7 +319,7 @@ label{
     width: 25%;
     height: 100.5vh;
     background-color: #3a3a3a;
-    position: absolute;     
+    position: absolute;
     text-align: center;
     opacity: 0.99;
 }
@@ -343,40 +343,158 @@ hr {
 }
 
 /* портфолио */
-.portfolio_body {color: #9f9f9f;}
+.portfolio_body {color: #fff;}
 
-.work1 {
+.work {
     display: flex;
     width: 100%;
     height: 100vh;
-}
-
-.work_img_left {
-    width: 50%;
-    height: 100vh;
-    background: url(../img/photo8.jpg) no-repeat;
-    background-size: contain;
-    float: left;
-    opacity: .9;
-}
-
-.work_img_right {
-    width: 50%;
-    height: 100vh;
-    background: url(../img/photo9.jpg) no-repeat;
-    background-size: contain;
-    float: right;
-    opacity: .9;
-    /*
     position: relative;
 }
-
 .work_name {
-    width: 98%;
-    background-color: #fff;
+    margin-left: 50%;
     position: absolute;
-    vertical-align: bottom;
     text-align: center;
-      
-} 
-*/
+    float: right;
+    width: 50%;
+    height: 10vh;
+    margin-top: 90vh;
+    padding: 3.5vh;
+    background-color: #3a3a3a;
+}
+.work_name h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+#description_img22 {
+    float: right;
+}
+.description_text_div_portfolio {
+    width: 50%;
+    height: 100vh;
+    opacity: 0.95;
+    background-color: RGBA(58, 58, 58, 0.9);    
+    text-align: center;
+}
+#description_text_div_portfolio2 {
+    height: 15vh;
+    opacity: 1;
+}
+#description_text_div_portfolio2 h2 {
+    margin: 5.7vh;
+}
+#description_text_div_portfolio3 {
+    height: 15vh;
+    left: 50%;
+    opacity: 1;
+    background-color:rgba(58, 58, 58, 0.8);
+}
+#description_text_div_portfolio3 h2 {
+    margin: 5.7vh;
+}
+#header_portfolio img{
+    margin-bottom: -5px;
+}
+#buttion_portfolio {
+    z-index: 1;
+    margin-top: 50vh;
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttion_portfolio:hover {
+    width: 21vh;
+}
+#description_text_div4_portfolio {
+    left:50%; margin-left:-238px;
+    background-color: rgba(58, 58, 58, 0);
+    
+}
+#description_text_div_portfolio2 h2 {
+    text-transform: none;
+}
+#work_name2 {
+    height: 15vh;
+    margin-top: 85vh;
+}
+#work_name2 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 5.8vh;
+}
+#work_header {
+    position: absolute;
+    margin: 50px;
+}
+#work_header a {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.118em;
+    
+    
+}
+/* Контакт */
+#c_body {
+    background: url(../img/photo15.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+.c_main_div {
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+.c_main_div h2{
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.href {
+    width: 408px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.54);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell; 
+    vertical-align: middle;
+    box-shadow: 5px 9px 104px 10px rgba(181,153,137,0.23);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.118em;
+    transition: .2s all;
+    top: 30px;
+}
+.href:hover{
+    transition: .2s all;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#c_header {
+    margin: 100px;
+    
+}
+#c_header a {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.118em;
+}
+#c_header .contacts_href {
+    float: left;
+}
